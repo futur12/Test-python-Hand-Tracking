@@ -14,7 +14,6 @@ class HandTracker:
             if not ret:
                 break
             
-
             image = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
             image.flags.writeable = False
             results = self.hands.process(image)
