@@ -2,6 +2,7 @@ class GestureMapper:
     def __init__(self):
         pass
 
+#  def maps(self, hand_landmarks, mouse_controller):
     def map_gesture(self, hand_landmarks, mouse_controller):
         # Coordonnées des points clés
         index_finger_tip = hand_landmarks.landmark[8]  # Index
